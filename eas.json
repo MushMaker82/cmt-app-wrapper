@@ -9,8 +9,8 @@
       "distribution": "internal"
     },
     "preview": {
-	"distribution": "internal", // <--- Re-added the distribution
-      "credentialsSource": "remote", // <--- THIS IS THE CRITICAL FIX
+      "distribution": "internal",
+      "credentialsSource": "remote", // <-- MUST BE HERE
       "android": {
         "buildType": "apk"
       },
