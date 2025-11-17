@@ -9,8 +9,8 @@
       "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal",
-      // ADD THESE TWO LINES FOR YOUR BUILD SERVER'S TESTING PROFILE:
+      "extends": "development",
+      "credentialsSource": "remote", // <--- THIS IS THE CRITICAL FIX
       "android": {
         "buildType": "apk"
       },
